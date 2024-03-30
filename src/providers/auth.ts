@@ -4,9 +4,9 @@ import { API_URL, dataProvider } from "./data";
 
 // For demo purposes and to make it easier to test the app
 export const authCredentials = {
-  email: "a@as.com",
-  password: "12345678",
-};
+    email: "michael.scott@dundermifflin.com",
+    password: "demodemo",
+  };
 
 export const authProvider: AuthProvider = {
     login: async ({ email }) => {
