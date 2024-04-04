@@ -48,7 +48,9 @@ export const totalCountVariants: {
           className="md"
           style={{
             color: "#1677FF",
-          }}
+          }} 
+          onPointerEnterCapture={undefined} 
+          onPointerLeaveCapture={undefined}
         />
       </IconWrapper>
     ),
@@ -85,7 +87,9 @@ export const totalCountVariants: {
           className="md"
           style={{
             color: "#52C41A",
-          }}
+          }} 
+          onPointerEnterCapture={undefined} 
+          onPointerLeaveCapture={undefined}
         />
       </IconWrapper>
     ),
@@ -127,6 +131,8 @@ export const totalCountVariants: {
           style={{
             color: "#FA541C",
           }}
+          onPointerEnterCapture={undefined} 
+          onPointerLeaveCapture={undefined}
         />
       </IconWrapper>
     ),
